@@ -1,0 +1,70 @@
+/* New Color Set 
+
+Makeup Tan: #DDAF94
+Blush: #E8CEBF
+Complimentary Green: #266150
+Dark Highlight: #4F4846
+Lightly Off White: #FDF8F5
+
+*/
+
+/* old colors: 
+links-hover(green) 50ba87 => 4F4846
+links(blue) 1b3abe => 266150
+*/
+
+body { 
+	color: #151515;
+	background-color: #bda99d;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class*='heading-'] a:hover {
+	color: #50ba87;
+}
+.desktop .box-sportlight:hover .box-sportlight-title a:hover {
+    color: #87d0ad;
+    color: #6ee2aa
+}
+
+a, a:focus, a:active {
+	color: #4261e4;
+}
+
+a:hover {
+	color: #1b3abe;
+}
+
+.box-icon-creative-text {
+	color: #9b9b9b;
+}
+
+.box-icon-modern-decor::before {
+	background: #d7d7d7;
+}
+
+.box-comment-reply::before {
+	color: #dddddd;
+}
+
+.box-pricing-black .box-pricing-list > li {
+	color: #5d6264;
+}
+.box-pricing-black .button-gray-4, .box-pricing-black .button-gray-4:focus {
+	color: #ffffff;
+	background-color: #494c51;
+	border-color: #494c51;
+}
+
+.box-sportlight-sale::before {
+	background: #ff5e5e;
+}
+
+.box-icon-ruby-icon {
+	font-size: 48px;
+	line-height: 1;
+	color: #4968ee;
+}
+
+.desktop .box-icon-ruby:hover::before {
+    border-color: rgba(255, 255, 255, 0.4);
+}
